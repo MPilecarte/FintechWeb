@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+    background-color: #FBFBF3;
+}
+nav{
+  border-bottom: 1px solid #846d13a0;
+
+  .nav {
+    display: flex;
+    gap: 100px;
+    margin: 15px 0 10px 0;
+    font-family: "Nunito", sans-serif;
+
+    li a {
+      color: #242827;
+    }
+  }
+}
+
+.main-page {
+    h1 {
+      font-size: 96px;
+      font-family: "Inter", sans-serif;
+      margin: 5rem 0 3rem 0;
+    }
+    p {
+      font-family: "Nunito", sans-serif;
+      font-size: 20px;
+      margin-bottom: 3rem;
+    }
+  
+}
+
+.align-button {
+    gap: 2rem;
+    margin-left: 1px;
+}
+.started, .login{
+    height: 57px;
+    width: 170px;
+}
+.started{
+    background-color: #242827;
+    border: none;
+    font-family: "Nunito", sans-serif;
+}
+.started:hover{
+    background-color: #FBFBF3;
+    color: #242827;
+    border: 1px solid #242827;
+}
+.login{
+    color: #242827;
+    border-color: #242827;
+    font-family: "Nunito", sans-serif;
+}
+.login:hover{
+    background-color: #242827;
+    color: #FBFBF3;
+    border-color: #242827;
+}
+
