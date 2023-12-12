@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+:root{
+    --backgroun-color:  #FBFBF3;
+    --dark-yellow: #846d13a0;
+    --yellow: #F6C907;
+    --blue-dark-gray:#242827;
+    --dark-gray: #3A3A3A;      
+    --gray: #747474; 
+}
+body{
+    background-color:var(--backgroun-color);
+}
+
+nav{
+  border-bottom: 1px solid var(--dark-yellow);
+  .nav {
+    display: flex;
+    gap: 100px;
+    margin: 15px 0 10px 0;
+    font-family: "Nunito", sans-serif;
+
+    li a {
+      color: var(--blue-dark-gray);
+    }
+    li a:hover{
+        color: #7f6800;
+      }
+  }
+}
+
+.form-login{
+  margin-top: 180px;
+
+  h2{
+    color: var(--blue-dark-gray);
+    text-align: center;
+    font-weight: 400;
+  }
+
+  label,p{
+    color: #747474;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--dark-gray);
+  }
+
+  .botao{
+    height: 61px;
+    background-color: var(--blue-dark-gray);
+    border: none;
+    color: var(--backgroun-color);
+  }
+
+  .botao:focus{
+    background-color: var(--blue-dark-gray);
+  }
+}
+
+

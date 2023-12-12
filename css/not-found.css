@@ -1,0 +1,22 @@
+body {
+    background-color: #201c24;
+}
+
+.container {
+    text-align: center;
+    padding: 15px;
+
+    h1,p{
+        color: #FBFBF3;
+    }
+
+    p{
+        font-size: 18px;
+    }
+    a {
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        color: #F6C907;
+    }
+}
